@@ -1,0 +1,52 @@
+{
+    "name": "DebugControls",
+    "maps": [
+        {
+            "name": "Common",
+            "id": "442003ab-5a36-42ff-99aa-6b0f4e16c357",
+            "actions": [
+                {
+                    "name": "Previous",
+                    "type": "Button",
+                    "id": "74b11d06-9378-48a0-857e-d0460c13e084",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Next",
+                    "type": "Button",
+                    "id": "62881bab-1b57-4fff-8466-e7e9a489bf66",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c23cb279-0fa4-40de-9eb1-5ab310ec0a4c",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Previous",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "20f07365-dfd1-4c53-a459-ee1b74623e7f",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
